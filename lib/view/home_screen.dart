@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       heading(
-                          data: "Full Body\nExercise X32",
+                          data: "Full Body\nExercise X3",
                           color: Colors.black,
                           size: 25),
                      CustomItem(icon: Icons.local_fire_department_outlined, text: '1230 kCal'),
