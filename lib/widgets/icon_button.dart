@@ -17,7 +17,7 @@ class CustomIconButton extends StatelessWidget {
           color: backgroundColor ?? AppColors.secondaryColor,
           shape: BoxShape.circle
       ),
-      child: Icon(icon),
+      child: Icon(icon,color: AppColors.whiteColor,size: 25,),
     );
   }
 }

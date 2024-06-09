@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xffE7FD54)),
           scaffoldBackgroundColor: AppColors.backgroundColor,
-          iconTheme: const IconThemeData(color: AppColors.whiteColor, size: 25)),
+
+    ),
       home: const HomeScreen(),
     );
   }
