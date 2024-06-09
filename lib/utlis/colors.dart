@@ -1,10 +1,9 @@
-
-import 'package:flutter/material.dart';
+import 'dart:ui';
 
 class AppColors{
-  static const Color primaryColor =Color(0xFFE8FD55);
-  static const Color secondaryColor =Color(0xFF1D1C19);
-  static const Color backGroundColor =Color(0xFF010001);
-  static const Color whiteColor =Colors.white;
-
+  static const Color primaryColor=Color(0xffE7FD54);
+  static const Color secondaryColor=Color(0xff1D1E19);
+  static const Color shadowColor=Color(0xffBACF2E);
+  static const Color backgroundColor=Color(0xff000000);
+  static const Color whiteColor=Color(0xffffffff);
 }

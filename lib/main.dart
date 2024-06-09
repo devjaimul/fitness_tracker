@@ -3,7 +3,7 @@ import 'package:fitness_tracker/view/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,9 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: AppColors.backGroundColor,
-      ),
-      home: HomeScreen(),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xffE7FD54)),
+          scaffoldBackgroundColor: AppColors.backgroundColor,
+          iconTheme: const IconThemeData(color: AppColors.whiteColor, size: 25)),
+      home: const HomeScreen(),
     );
   }
 }
