@@ -12,7 +12,7 @@ class CustomIconButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: height??80,
-      width: width??60,
+      width: width??80,
       decoration: BoxDecoration(
           color: backgroundColor ?? AppColors.secondaryColor,
           shape: BoxShape.circle
