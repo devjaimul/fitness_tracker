@@ -11,7 +11,7 @@ class CustomIconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: height??50,
+      height: height??80,
       width: width??70,
       decoration: BoxDecoration(
           color: backgroundColor ?? AppColors.secondaryColor,
