@@ -12,18 +12,20 @@ class CircleButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height:height?? 80,
-      width:width?? 80,
-      decoration:  BoxDecoration(
-        color: backgroundColor ?? AppColors.whiteColor.withOpacity(.1),
-        shape: BoxShape.circle,
-      ),
-      child: Center(
-        child: Icon(
-          icon,
-          size: 30,
-          color: iconColor?? AppColors.whiteColor,
+    return SafeArea(
+      child: Container(
+        height:height?? 80,
+        width:width?? 80,
+        decoration:  BoxDecoration(
+          color: backgroundColor ?? AppColors.whiteColor.withOpacity(.1),
+          shape: BoxShape.circle,
+        ),
+        child: Center(
+          child: Icon(
+            icon,
+            size: 30,
+            color: iconColor?? AppColors.whiteColor,
+          ),
         ),
       ),
     );
