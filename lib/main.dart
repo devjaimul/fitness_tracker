@@ -1,4 +1,4 @@
-import 'package:fitness_tracker/utlis/colors.dart';
+
 import 'package:fitness_tracker/view/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xffE7FD54)),
-          scaffoldBackgroundColor: AppColors.backgroundColor,
+          scaffoldBackgroundColor: Colors.black,
 
     ),
       home: const HomeScreen(),
