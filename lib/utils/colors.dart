@@ -5,4 +5,6 @@ class AppColors{
   static const Color secondaryColor=Color(0xff1D1E19);
   static const Color backGroundColor=Color(0xff000000);
   static const Color whiteColor=Color(0xffffffff);
+  static const Color buttonBgColor=Color(0xffB9CF30);
+
 }

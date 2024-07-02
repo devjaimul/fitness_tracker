@@ -6,12 +6,13 @@ Widget headingTwo({
 required String data,
 Color? textColor,
   FontWeight? fontWeight,
+  double? fontSize,
 }) {
   return Text(
     data,
     style: TextStyle(
         color: textColor ?? AppColors.whiteColor,
-        fontSize: 30,
+        fontSize: fontSize ?? 30,
         fontWeight:fontWeight ?? FontWeight.w700),
   );
 }
