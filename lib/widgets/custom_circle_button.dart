@@ -24,7 +24,7 @@ class CircleButton extends StatelessWidget {
           child: Icon(
             icon,
             size: 30,
-            color: iconColor?? AppColors.whiteColor,
+            color: iconColor?? AppColors.whiteColor.withOpacity(0.7),
           ),
         ),
       ),

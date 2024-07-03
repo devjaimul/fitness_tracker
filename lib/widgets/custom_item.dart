@@ -9,9 +9,9 @@ class CustomItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Icon(icon,color: CupertinoColors.black.withOpacity(0.5)),
+        Icon(icon,color: CupertinoColors.black.withOpacity(0.5),),
         const SizedBox(width: 5,),
-        Text(text,style: TextStyle(color: CupertinoColors.black.withOpacity(0.5)),),
+        Text(text,style: TextStyle(color: CupertinoColors.black.withOpacity(0.5),fontSize: 16)),
       ],
     );
   }

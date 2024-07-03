@@ -12,7 +12,7 @@ Color? textColor,
     data,
     style: TextStyle(
         color: textColor ?? AppColors.whiteColor,
-        fontSize: fontSize ?? 30,
+        fontSize: fontSize ?? 40,
         fontWeight:fontWeight ?? FontWeight.w700),
   );
 }
