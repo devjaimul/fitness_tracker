@@ -31,7 +31,6 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-
           children: [
             headingTwo(data: 'Make Your '),
             headingTwo(data: 'Body Perfect', textColor: AppColors.primaryColor),
@@ -57,8 +56,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           fontSize: 30,
                           textColor: Colors.black),
                       const CustomItem(
-                          icon: Icons.local_fire_department_outlined,
-                          text: '1230 kcl',),
+                        icon: Icons.local_fire_department_outlined,
+                        text: '1230 kcl',
+                      ),
                       const CustomItem(
                           icon: Icons.timer_outlined, text: '50 min'),
                       const SizedBox(
@@ -69,8 +69,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             backgroundColor: AppColors.buttonBgColor,
                           ),
                           onPressed: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) => const FitnessTracker(),));
-
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const FitnessTracker(),
+                                ));
                           },
                           child: const Text(
                             "Start Now",
@@ -121,9 +124,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ],
             ),
-            const SizedBox(height: 40,),
+            const SizedBox(
+              height: 40,
+            ),
             Container(
-              padding: const EdgeInsets.only(left: 10, right: 0, top: 5, bottom: 5),
+              padding:
+                  const EdgeInsets.only(left: 10, right: 0, top: 5, bottom: 5),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(40),
                 color: AppColors.secondaryColor,
