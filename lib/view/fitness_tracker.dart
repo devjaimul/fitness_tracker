@@ -38,7 +38,7 @@ class _FitnessTrackerState extends State<FitnessTracker> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            headingTwo(data: 'Healthh'),
+            headingTwo(data: 'Health'),
             headingTwo(data: 'Overview', textColor: AppColors.primaryColor),
             const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
