@@ -1,16 +1,6 @@
-# fitness_tracker
+#Fitness_Tracker_App
 
-A new Flutter project.
+YouTube link: https://youtu.be/SjcDOnDFRMA?si=xv8xmVcLQ-iA58UA
 
-## Getting Started
+![IMG_20240704_115057](https://github.com/devjaimul/fitness_tracker/assets/105303801/a25fc7f2-8b10-4c0c-94ff-b79a5ee94b82)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
